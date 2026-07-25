@@ -1,7 +1,25 @@
 aid: cyberpsyc
 name: Cyberpsyc
-description: Cyberpsyc is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: CyberPsyc Software Solutions, operating as WellTrack Boost (now part of ProtoCall
+  Services), builds self-guided, clinically-supported digital cognitive behavioral therapy (CBT)
+  tools for behavioral health and wellness. The platform lets users assess and understand their
+  mental health on their own devices and schedule through MoodCheck mood tracking, the Zen Room,
+  a Thought Diary, an Activity Scheduler, Fun and Achievement planning, and guided modules for
+  stress, anxiety, and depression. WellTrack Boost is deployed by college counseling centers and
+  certified community behavioral health clinics, offering institutional single sign-on through a
+  SAML integration surface. No public developer REST API or OpenAPI is currently published.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://welltrack.com/wp-content/uploads/2022/08/logo-main.svg
 url: https://raw.githubusercontent.com/api-evangelist/cyberpsyc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Mental Health
+- Behavioral Health
+- Wellness
+- Digital Therapeutics
+- CBT
+- Healthcare
+- Higher Education
+- SSO
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/cyberpsyc-trust-center.yml
+- type: Compliance
+  url: https://welltrack.com/compliance/
+- type: DomainSecurity
+  url: security/cyberpsyc-domain-security.yml
 - type: Website
-  url: https://mywelltrack.com
+  url: https://welltrack.com
+- type: Support
+  url: https://welltrack.com/contact/
+- type: Blog
+  url: https://welltrack.com/resources/
+- type: GettingStarted
+  url: https://welltrack.com/boost/
+- type: Login
+  url: https://app.welltrack.com/
+- type: TermsOfService
+  url: https://app.welltrack-boost.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://app.welltrack-boost.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

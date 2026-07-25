@@ -1,0 +1,13 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://welltrack.com/compliance/
+url: https://welltrack.com/compliance/
+certifications:
+- HIPAA
+- GDPR
+evidence:
+- source: https://welltrack.com/compliance/
+  keywords:
+  - hipaa
+  - gdpr
